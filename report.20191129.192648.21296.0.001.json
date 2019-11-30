@@ -1,0 +1,454 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191129.192648.21296.0.001.json",
+    "dumpEventTime": "2019-11-29T19:26:48Z",
+    "dumpEventTimeStamp": "1575055608845",
+    "processId": 21296,
+    "cwd": "C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\jest-worker\\build\\workers\\processChild.js"
+    ],
+    "nodejsVersion": "v12.8.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.8.0",
+      "v8": "7.5.288.22-node.16",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.1",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.8.0/node-v12.8.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.8.0/node-v12.8.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.8.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 14444703,
+        "nice": 0,
+        "sys": 12676937,
+        "idle": 123645640,
+        "irq": 1897812
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 14431296,
+        "nice": 0,
+        "sys": 8018921,
+        "idle": 128316859,
+        "irq": 492187
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 19557812,
+        "nice": 0,
+        "sys": 9052843,
+        "idle": 122156437,
+        "irq": 151359
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 15311375,
+        "nice": 0,
+        "sys": 6693359,
+        "idle": 128762359,
+        "irq": 110171
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 13688093,
+        "nice": 0,
+        "sys": 8991843,
+        "idle": 128087109,
+        "irq": 155625
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 12095921,
+        "nice": 0,
+        "sys": 6699140,
+        "idle": 131971984,
+        "irq": 102515
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 13741968,
+        "nice": 0,
+        "sys": 7465500,
+        "idle": 129559578,
+        "irq": 129265
+      },
+      {
+        "model": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "speed": 1996,
+        "user": 14001234,
+        "nice": 0,
+        "sys": 6092828,
+        "idle": 130673015,
+        "irq": 178390
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "WiFi",
+        "internal": false,
+        "mac": "c2:89:e5:c2:10:48",
+        "address": "fe80::bd3e:53f1:2d05:c932",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 20
+      },
+      {
+        "name": "WiFi",
+        "internal": false,
+        "mac": "c2:89:e5:c2:10:48",
+        "address": "172.16.9.74",
+        "netmask": "255.240.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "htop"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff64d2f6d99",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64d2fb38c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64d2fa338",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64d3e4f3b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64dbcbc1e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64dbb3f6a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64da4567c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64da4d5af",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64da43843",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64da420d4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64da686f3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64d8daa6a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64d7994a0",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64d7dc508",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff64dfeb06d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000f67bd0569a",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 6496256,
+    "totalCommittedMemory": 6496256,
+    "usedMemory": 5399752,
+    "availableMemory": 2192953168,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047328,
+        "used": 1047208,
+        "available": 120
+      },
+      "old_space": {
+        "memorySize": 3813376,
+        "committedMemory": 3813376,
+        "capacity": 3727704,
+        "used": 3409728,
+        "available": 317976
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 171808,
+        "used": 171072,
+        "available": 736
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 383456,
+        "used": 345360,
+        "available": 38096
+      },
+      "large_object_space": {
+        "memorySize": 401408,
+        "committedMemory": 401408,
+        "capacity": 393272,
+        "used": 393272,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 16384,
+        "committedMemory": 16384,
+        "capacity": 1152,
+        "used": 1152,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047328,
+        "used": 0,
+        "available": 1047328
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.359,
+    "kernelCpuSeconds": 0.156,
+    "cpuConsumptionPercent": 4.68182,
+    "maxRss": 32833536,
+    "pageFaults": {
+      "IORequired": 12170,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 225,
+      "writes": 5
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\rtd00\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132102853706378972",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "HTOP",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FORCE_COLOR": "1",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GRIDSOME_MODE": "serve",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\rtd00",
+    "JEST_WORKER_ID": "0",
+    "LOCALAPPDATA": "C:\\Users\\rtd00\\AppData\\Local",
+    "LOGONSERVER": "\\\\HTOP",
+    "NODE_ENV": "development",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\rtd00\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\rtd00\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Python27\\;C:\\Python27\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\FileBot\\;C:\\Program Files\\PuTTY\\;C:\\Users\\rtd00\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\rtd00\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\rtd00\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\rtd00\\AppData\\Roaming\\npm;C:\\Users\\rtd00\\AppData\\Local\\Yarn\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "1100",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "QT_BEARER_POLL_TIMEOUT": "-1",
+    "QT_D3DCREATE_MULTITHREADED": "1",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\rtd00\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\rtd00\\AppData\\Local\\Temp",
+    "USERDOMAIN": "HTOP",
+    "USERDOMAIN_ROAMINGPROFILE": "HTOP",
+    "USERNAME": "rtd00",
+    "USERPROFILE": "C:\\Users\\rtd00",
+    "VIPSHOME": "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release",
+    "windir": "C:\\Windows"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\sharp.node",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libglib-2.0-0.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libvips-42.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libvips-cpp.dll",
+    "C:\\Windows\\System32\\ole32.dll",
+    "C:\\Windows\\System32\\SHELL32.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libintl-8.dll",
+    "C:\\Windows\\System32\\shcore.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libcairo-2.dll",
+    "C:\\Windows\\System32\\windows.storage.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libexif-12.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libexpat-1.dll",
+    "C:\\Windows\\System32\\shlwapi.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libfontconfig-1.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libgif-7.dll",
+    "C:\\Windows\\System32\\cryptsp.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libgmodule-2.0-0.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libgobject-2.0-0.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libgsf-1-114.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\liblcms2-2.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libjpeg-62.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\liborc-0.4-0.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libpango-1.0-0.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libpangoft2-1.0-0.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libpng16-16.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\librsvg-2-2.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libtiff-5.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libwebp-7.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libz.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libwebpmux-3.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libiconv-2.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libfreetype-6.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libpixman-1-0.dll",
+    "C:\\Windows\\SYSTEM32\\MSIMG32.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libgcc_s_seh-1.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libffi-6.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libgio-2.0-0.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libxml2-2.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libharfbuzz-0.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libcroco-0.6-3.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libgdk_pixbuf-2.0-0.d",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libpangocairo-1.0-0.d",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\WinSxS\\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.864_none_369e36fd61b3812e\\gdiplus.dll",
+    "\\\\?\\C:\\Users\\rtd00\\Documents\\Work\\Research\\gridsome\\clients-dhat-version-5\\node_modules\\sharp\\build\\Release\\libpangowin32-1.0-0.d",
+    "C:\\Windows\\SYSTEM32\\USP10.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
